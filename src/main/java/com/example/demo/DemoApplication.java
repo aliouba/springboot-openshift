@@ -11,7 +11,7 @@ public class DemoApplication {
 
     @GetMapping("/")
     public String getHome(){
-        return "Welcome to home page";
+        return "Welcome to home page mor dioum";
     }
 
     public static void main(String[] args) {
