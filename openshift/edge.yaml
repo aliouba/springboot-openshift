@@ -5,7 +5,7 @@ metadata:
     app: spring-boot-app
   name: spring-boot-app
 spec:
-  host: <name here>.console.cloud.dakar.io
+  host: <name here>.apps.cloud.dakar.io
   tls:
     termination: edge
   to:
