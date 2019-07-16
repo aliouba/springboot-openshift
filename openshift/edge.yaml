@@ -2,6 +2,8 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   name: wildfly
+  labels:
+    app: wildfly
 spec:
   host: wildflytest.apps.cloud.dakar.io
   tls:
